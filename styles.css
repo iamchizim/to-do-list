@@ -1,0 +1,82 @@
+/* Reset default margin and padding */
+body, h1, h2, p, form, input, button, .container {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set global font and background color */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* Center the container */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  /* Style the heading */
+  h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+  }
+  
+  /* Style the form */
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  button {
+    width: calc(100% - 150px); /* Adjusted width to accommodate border */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style the task output */
+  #output {
+    text-align: left;
+  }
+  
+  #output p {
+    margin-bottom: 10px;
+  }
+  
+  .deleteBtn {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .deleteBtn:hover {
+    background-color: #c82333;
+  }
+  
